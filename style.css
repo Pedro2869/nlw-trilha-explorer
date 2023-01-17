@@ -6,3 +6,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --bg-color: #09090A;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: white;
+
+    display: grid;
+    place-items: center;
+
+    height: 100vh;
+}
