@@ -44,8 +44,10 @@ button {
     line-height: 125%;
 }
 
-form {
+#form-habits {
     display: flex;
+
+    padding: 0 48px;
 }
 
 .habits {
