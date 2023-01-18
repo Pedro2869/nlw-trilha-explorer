@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 
 * {
     margin: 0;
@@ -41,6 +42,53 @@ button {
     font-weight: 600;
     font-size: 16px;
     line-height: 125%;
+}
+
+form {
+    display: flex;
+}
+
+.habits {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+
+.habit {
+    width: 64px;
+    height: 64px;
+
+    font-size: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.days {
+    display: flex;
+    gap: 48px;
+    margin-left: 32px;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.day div {
+    margin-bottom: 8px;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    line-height: 125%;
+
+    color: #A1A1AA;
+
+    text-align: center;
 }
 
 input {
