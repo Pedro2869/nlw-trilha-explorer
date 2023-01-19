@@ -120,5 +120,8 @@ input:checked {
 }
 
 @media (max-width: 570px) {
-    
+    button div {
+        display: none;
+    }
 }
+
