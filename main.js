@@ -39,5 +39,6 @@ function save() {
 // ]
 // };
 
-// nlwSetup.setData(data)
-// nlwSetup.load()
+const data = JSON.parse(localStorage.getItem('NLWSetup@habits')) || {}
+nlwSetup.setData(data)
+nlwSetup.load()
